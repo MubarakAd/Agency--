@@ -1,0 +1,404 @@
+body{
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+
+}
+/*begin of nav-bar*/
+.navbar{
+  background-color: rgba(0,0,0,0.5)!important;
+  padding: 1rem 2.5rem;
+ 
+}
+ .nav-link{
+  color: white;
+  text-transform: uppercase;
+  margin-right: .7rem;
+}
+a.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  color:  #FFC107;
+}
+a.navbar-brand:hover{
+  color: #c79606;
+
+}
+.nav-link:hover{
+  color: #FFC107;
+}
+.navbar-toggler{
+  color: #FFC107;
+  background-color: white;
+}
+/*************************************end of nav-bar************************************/
+
+/*************************************begin of home page *********************************************************/
+.landing .home-wrap .home-inner{
+  background-image:url('../images/header-bg.jpg');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position:center center;
+  position: fixed;
+  
+
+}
+
+.landing {
+  height: 100vh;
+  z-index: -1;
+ 
+}
+.home-wrap {
+  position: absolute;
+  clip: rect(0,auto,auto,0);
+  width: 100%;
+  height: 100%;
+  
+  
+}
+.container{
+  position: absolute;
+  top: 30%;
+  color: white;
+}
+.container h1{
+  font-size: 4.5rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  word-spacing: .5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+.container h3{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding: 1rem;
+  font-family: serif;
+}
+.container .btn{
+  border-radius: 0%;
+  padding: 1rem 1rem;
+
+}
+/********************************end of home page**********************/
+
+/*******************************begin of service page******************/
+#service .row{
+  padding: 4rem 5rem;
+}
+#service .text{
+  padding-top: 5rem;
+}
+#service .text h1{
+  font-family: 'Ubuntu',sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+#service .text p{
+  font-family: serif;
+  color: gray;
+  
+}
+.service-icon{
+ padding: 2rem;
+  color: white;
+  border-radius: 100%;
+  background-color:#FFC107;
+  margin-bottom: .7rem;
+}
+  .service-col h4{
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+  .service-col p{
+    color: gray;
+    font-weight: 300;
+  }
+  /******************************************end of service page********************/
+
+  /******************************************begin of portifilio page*************/
+  #portifilio{
+    padding-bottom: 6rem;
+  }
+  #portifilio .text-center h1{
+    font-family: 'Ubuntu',sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  }
+  #portifilio .text-center p{
+    font-family: serif;
+  color: gray;
+
+  }
+  #portifilio .text{
+    padding: 5.5rem 0 3rem 0;
+  }
+  #portifilio img{
+    width: 100%;
+    height: 90%;
+  }
+  #portifilio .row{
+    padding: .3rem 7rem 4rem 7rem;
+  }
+  
+  #portifilio h4{
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+  .white{
+    background-color: white;
+    padding-bottom: .1rem;
+  }
+  /*****************************************end of portifilio page************************/
+
+  /****************************************begin of about page*****************************/
+  #About{
+    padding: 5rem 0;
+  }
+  #About h1{
+    font-family: 'Ubuntu',sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding-bottom: .5rem;
+
+  }
+  .text p{
+    font-family: serif;
+  color: gray;
+
+  }
+.col-lg-8 p{
+  width: 70%;
+  color: gray;
+  margin: 0 auto;
+}
+  #About img{
+    width: 80%;
+    border-radius: 100%;
+    border: .5rem solid #dee9f2;
+    margin: 2rem 0 3rem 0;
+  }
+   .left{
+    padding: 2rem 0 4rem 4rem;
+
+  }
+   .right{
+    padding: 2rem 4rem 4rem 0;
+  }
+  #About h4{
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: bold;
+    padding-bottom: .5rem;
+  }
+  .strong{
+    margin: 2rem auto;
+    background-color: #FFC107;
+    width: 170px; /* Adjust the width and height as needed */
+  height: 170px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: .5rem solid #dee9f2;
+  /* Apply border-radius to create a circle shape */
+    
+  }
+  .strong p{
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    color: white;
+    
+  }
+  /****************************************end of about page******************************************/
+
+  /***************************************begin of team page******************************************/
+  #Team{
+    padding: 5.5rem 2rem;
+  }
+  #Team h1{
+    font-family: 'Ubuntu',sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding-bottom: .5rem;
+
+  }
+  #Text .text p{
+    font-family: serif;
+  color: gray;
+  }
+  #Team .text{
+    padding-bottom:2.5rem ;
+  }
+  #Team img{
+    width: 55%;
+    border-radius: 100%;
+    border:.5rem solid #dee9f2 ;
+  }
+  #Team h4{
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: bold;
+    
+  }
+  #Team .col-lg-4 p{
+    font-family: serif;
+    color: gray;
+    font-size: 1.1rem;
+  }
+
+  #Team i{
+    background-color:black;
+    color: white;
+    padding: 1rem 1.1rem;
+    border-radius: 100%;
+    margin-right:.5rem;
+
+  }
+  #Team .icon{
+    margin-bottom: 2rem;
+  }
+  #Team a :hover{
+    background-color: gray;
+   
+  }
+  #Team .last-paragraph p{
+    padding-top: 2.5rem;
+    width: 60%;
+    font-family: serif;
+    margin: 0 auto;
+    color: rgba(128, 128, 128, 0.935);
+    font-size: 1.1rem;
+  }
+  /*******************************************end of page team**********************************/
+
+  /******************************************begin of contact***********************************/
+  #contact .contact{
+    background-image: url('../images/map-image.png');
+    background-color: rgba(0,0,0,0.9);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-position: center;
+    position: fixed;
+    z-index: -1;
+
+    
+  }
+  #contact .contact-wrap{
+    clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  }
+  #contact .container-l{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    z-index: 1;
+    text-align: center;
+  }
+  #contact .contact-height{
+    position: relative;
+    width: 100%;
+    height: 150vh;
+  }
+
+  #contact h1{
+    font-family: 'Ubuntu',sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: white;
+
+  }
+  #contact .text p{
+  font-family: serif;
+  color: gray;
+  padding-bottom: 3rem;
+  }
+  #contact input{
+    width: 25.2rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: .7rem;
+  }
+  #contact textarea{
+    padding-bottom: 3rem;
+  }
+  #contact .btn{
+    margin-top: 1.5rem;
+    padding:1rem 3rem;
+    color: white;
+    border: 1px solid white;
+    text-transform: uppercase;
+  }
+  /******************************************end of team page*********************************/
+
+  /*******************************************begin of footer page****************************/
+  footer{
+    padding: 4rem 2.5rem 3rem;
+  }
+  footer i{
+    background-color:black;
+    color: white;
+    padding: 1rem 1.1rem;
+    border-radius: 100%;
+    margin-right:.5rem;
+
+  }
+  footer a{
+    padding-right: 1rem;
+    text-decoration: none;
+    font-family: serif;
+    color: black;
+    font-size: 1.1rem;
+    padding: 0 1.5rem;
+  }
+  footer a :hover{
+    background-color: gray;
+  }
+  /***************************************end of footer page*****************************************/
+  /***************************************begin of media query page******************************/
+
+@media(max-width:991px){
+  .container h1{
+    font-size: 3rem;
+  }
+  #portifilio img{
+    width: 100%;
+    height: 70%;
+  }
+  #About img{
+    width: 30%;
+    border-radius: 100%;
+    border: .5rem solid #dee9f2;
+    margin: 2rem 0 3rem 0;
+  }
+  #Team img{
+    width: 35%;
+    border-radius: 100%;
+    border:.5rem solid #dee9f2 ;
+  }
+  #contact .container-l{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 1;
+    text-align: center;
+  }
+
+}
+  
+  
+  
+  
